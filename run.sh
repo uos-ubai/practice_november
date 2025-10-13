@@ -11,7 +11,7 @@
 
 echo "start at: $(date)"                                # 접속한 날짜 표기
 echo "node: $HOSTNAME"                                  # 접속한 노드 번호 표기
-echo "jobid: $SLURM_JOB_ID"              s              # jobid 표기
+echo "jobid: $SLURM_JOB_ID"                             # jobid 표기
 
 # Load modules (cuda 환경)
 module load cuda/11.8.0 
