@@ -3,7 +3,7 @@
 #SBATCH --output=./output/%j.out
 #SBATCH --error=./output/%j.err
 #SBATCH --partition=gpu0                   # 사용할 파티션 이름으로 변경 필요 -> gpu number(gpu1 ~ gpu6)
-#SBATCH --nodelist=n107                    # 사용할 노드 이름으로 변경-> node number(n001 ~ n106)                  
+#SBATCH --nodelist=n107                    # 사용할 노드 이름으로 변경 -> node number(n001 ~ n106)                  
 #SBATCH --gres=gpu:1                       # 사용할 gpu 수
 #SBATCH --cpus-per-task=1                  # 하나의 태스크가 사용할 CPU 코어 수
 ##SBATCH --mem=128G                        # 메모리 할당량 (##이므로 해당 명령어 비활성화)
