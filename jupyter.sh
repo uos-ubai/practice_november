@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=UBAIJOB                             # 수정필요
+#SBATCH --job-name=MY_JOB                              # 수정필요
 #SBATCH --partition=gpu7                               # 수정필요
 #SBATCH --nodelist=n107                                # 수정필요                
 #SBATCH --cpus-per-task=1                              # 수정필요
