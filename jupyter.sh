@@ -16,6 +16,3 @@ module load cuda/11.8.0
 python -m jupyter lab $HOME \
         --ip=0.0.0.0 \
         --no-browser
-
-# 가상환경 내 주피터 설치
-pip install ipykernel jupyterlab
