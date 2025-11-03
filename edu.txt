@@ -30,3 +30,6 @@ pip install -r requirements.txt
 ----------------------------------------------------------------------------------
 # 작업(job) 던지는 명령 문구
 sbatch ./run.sh
+
+# 가상환경 내 주피터 설치
+pip install ipykernel jupyterlab
