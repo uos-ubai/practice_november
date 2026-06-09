@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=MY_JOB                  # 사용자의 작업 이름으로 변경
 #SBATCH --output=/gpfs/home1/[계정명]/practice/output/%j.out
-#SBATCH --output=/gpfs/home1/[계정명]/practice/output/%j.err
+#SBATCH --error=/gpfs/home1/[계정명]/practice/output/%j.err
 #SBATCH --partition=gpu6                   # 사용할 파티션 이름으로 변경 필요 -> gpu number(gpu1 ~ gpu6)
 #SBATCH --nodes=1                          # 사용할 노드 수 
 #SBATCH --nodelist=n032,n033               # 사용할 노드 이름으로 변경 -> node number(n001 ~ n106)  
