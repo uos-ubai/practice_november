@@ -3,6 +3,8 @@ https://code.visualstudio.com/download
 
 ----------------------------------------------------------------------------------
 # C:\Users\사용자\.ssh\config 접속 후 파일 수정
+# MacOS의 경우, /Users/사용자/.ssh/config
+
 Host gate1
     HostName 172.16.10.36
     Port 22
