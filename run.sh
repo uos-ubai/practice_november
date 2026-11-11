@@ -9,7 +9,7 @@
 #SBATCH --mem=4G                          # 노드 당 사용할 메모리 크기(생략 시 파티션별 기본 메모리 크기 할당)
 #SBATCH --time=24:00:00                    # 최대 실행 시간(기본 최대 48시간 실행 가능)
 
-##SBATCH --reservation=ubai_edu            # 예약 이름(실습을 위해 사전 예약된 노드에서 작업 실행)
+#SBATCH --reservation=ubai_edu            # 예약 이름(실습을 위해 사전 예약된 노드에서 작업 실행)
 
 ##SBATCH --gres=gpu:2                      # 사용할 gpu 수 (##이므로 해당 명령어 비활성화)
 
