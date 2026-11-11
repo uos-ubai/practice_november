@@ -5,7 +5,7 @@
 #SBATCH --partition=gpu6                  # 사용할 파티션 이름 지정 -> gpu number(gpu1~gpu6, cpu1~gpu2)
 #SBATCH --nodes=1                         # 사용할 노드 개수
 #SBATCH --nodelist=n[015-021]             # 사용할 노드 이름 지정 -> node number(n001~n116)                  
-#SBATCH --cpus-per-task=1                 # 하나의 태스크가 사용할 CPU 코어 개수
+#SBATCH --cpus-per-task=4                 # 하나의 태스크가 사용할 CPU 코어 개수
 #SBATCH --mem=4G                          # 노드 당 사용할 메모리 크기(생략 시 파티션별 기본 메모리 크기 할당)
 #SBATCH --time=24:00:00                    # 최대 실행 시간(기본 최대 48시간 실행 가능)
 
